@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Jost", sans-serif;
+}
+.main{
+    width: 100rw;
+    height: 100vh;
+    background-color: #f6f6f6;
+    display: grid;
+    place-items: center;
+}
+.music_container {
+    width: 35rem;
+    height: 55rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+    padding: 3rem 3rem 0 3rem;
+    text-align: center;
+}
+
+footer{
+    font-size: 2rem;
+
+}
+.btn_h{
+    width: 27rem;
+    height: 4rem;
+    font-size: 2rem;
+    background-color: rgb(241, 37, 1);
+    border-radius: 0 2rem 0 2rem;
+    font-weight: 700;
+}
+.interest_container{
+
+    width: 29rem;
+    height: 43rem;
+    background-color: rgb(157, 234, 255);
+    padding: 3rem 3rem 3rem 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 0 4rem 0 4rem;
+}
+#inputAmount,#inputInterest,#inputPeriod{
+    margin: 0.5rem;
+    justify-content: center;
+    width: 22.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.text_h{
+    margin: 1rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
+}
+#buttonEnter{
+
+    width: 17rem;
+    border-radius: 3rem;
+    background-color: green;
+    margin: 1.7rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#inputDisplay{
+    margin: 1rem 0.2rem 0.5rem 0.2rem;
+    justify-content: center;
+    width: 23rem;
+    height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
